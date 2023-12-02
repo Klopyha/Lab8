@@ -1,3 +1,41 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --main-font: "Inter", sans-serif;
+  --main-text-color: white;
+}
+
+div.hero {
+  background-image: url(images/herocoffee.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
 h1 {
-  color: green;
+  font-family: poppins;
+  color: var(--main-text-color);
+  size: 95px;
+  font-weight: 700;
+  font-size: 53px;
+  margin-top: 0;
+  padding-top: 170px;
+  padding-left: 54px;
+}
+button {
+  width: 188px;
+  height: 46px;
+  border-radius: 37px;
+  background-color: var(--main-text-color);
+  color: black;
+  margin-left: 54px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 25px;
+}
+button:hover {
+  background-color: rgba(35, 33, 33, 0.753);
+  transition: 0.7s;
+  color: var(--main-text-color);
 }
