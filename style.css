@@ -72,6 +72,56 @@ p {
   font-weight: normal;
 }
 
+#catalogue {
+  background-color: #cdc3c3;
+  padding-top: 117px;
+}
+#catalogue h3,
+#catalogue p {
+  text-align: center;
+}
+body > div:nth-child(3) > div {
+  display: block;
+}
+.pricing-container {
+  background-color: #cdc3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  width: 100%;
+}
+.pricing-item {
+  width: 350px;
+  background-color: white;
+  padding: 30px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 15px;
+}
+.item-title {
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: normal;
+}
+.item-desc {
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: normal;
+  width: 300px;
+  position: relative;
+  top: 36px;
+}
+.price {
+  position: relative;
+  top: -66px;
+  left: 287px;
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: #ae9f6a;
+  width: 10px;
+}
 @media (max-width: 960px) {
   div.hero {
     height: 700px;
@@ -82,8 +132,22 @@ p {
   h3 {
     font-size: 30px;
   }
+  .pricing-container {
+    gap: 0;
+  }
   div.description {
     padding-top: 10px;
+  }
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .pricing-item {
+    margin-top: 30px;
+  }
+  #catalogue {
+    padding-top: 50px;
   }
 }
 @media (max-width: 700px) {
@@ -100,6 +164,7 @@ p {
     /* margin-left: 50vw;
     transform: translate(-50%); */
   }
+
   .description {
     text-align: center;
     width: 100%;
