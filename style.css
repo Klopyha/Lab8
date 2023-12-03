@@ -39,3 +39,87 @@ button:hover {
   transition: 0.7s;
   color: var(--main-text-color);
 }
+
+div.container {
+  margin: 90px 40px;
+  height: 350px;
+}
+#video > iframe {
+  aspect-ratio: 16 / 9;
+  width: 90%;
+}
+#video {
+  width: 50%;
+  float: left;
+}
+.description {
+  width: 50%;
+  float: right;
+  padding-top: 30px;
+}
+body > div.container > div.description > img {
+  width: 130px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+p {
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: normal;
+}
+
+@media (max-width: 960px) {
+  div.hero {
+    height: 700px;
+  }
+  div.container {
+    margin-top: 58px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  div.description {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  div.hero {
+    height: 500px;
+  }
+  button {
+    display: none;
+  }
+  #video {
+    width: 90%;
+    clear: both;
+    margin: 1px 49px;
+    /* margin-left: 50vw;
+    transform: translate(-50%); */
+  }
+  .description {
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
+  div.container {
+    margin-top: 25px;
+    margin-bottom: 107px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  div.hero {
+    height: 300px;
+  }
+  h1 {
+    font-size: 26px;
+    padding-top: 105px;
+    padding-left: 14px;
+  }
+}
