@@ -179,6 +179,56 @@ figure {
   grid-column-start: 6;
   grid-column-end: -1;
 }
+.section-with-nums {
+  background-color: #b68833;
+}
+#numbers {
+  padding-top: 90px;
+  background-color: #b68833;
+}
+.numtitiles {
+  color: var(--main-text-color);
+  text-align: center;
+  font-family: var(--main-font);
+}
+.numtitiles h3 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.numtitiles p {
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+.num-section {
+  background-color: #b68833;
+  width: 50%;
+  float: left;
+}
+.nums {
+  display: flex;
+}
+#num1,
+#num2 {
+  font-weight: 100;
+  font-size: 60px;
+  padding-right: 125px;
+}
+.num-section2 {
+  background-color: #b68833;
+  width: 50%;
+  float: right;
+}
+.num-container {
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  margin-right: 45px;
+  margin-left: 45px;
+  font-size: 25px;
+}
+h4 {
+  font-weight: 400;
+}
+
 @media (max-width: 960px) {
   div.hero {
     height: 700px;
@@ -206,8 +256,25 @@ figure {
   #catalogue {
     padding-top: 50px;
   }
+  #num1,
+  #num2 {
+    display: none;
+  }
+  body > section.section-with-nums {
+    height: 600px;
+  }
 }
 @media (max-width: 700px) {
+  .num-section {
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
+  .num-section2 {
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
   div.hero {
     height: 500px;
   }
