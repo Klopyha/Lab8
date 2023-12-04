@@ -295,6 +295,9 @@ body > section.last-section > div > div.first > p:nth-child(4) {
 }
 
 @media (max-width: 960px) {
+  nav p {
+    font-size: 43px;
+  }
   div.hero {
     height: 700px;
   }
@@ -333,6 +336,15 @@ body > section.last-section > div > div.first > p:nth-child(4) {
   }
 }
 @media (max-width: 700px) {
+  nav {
+    padding: 25px 31px 0 58px;
+  }
+  nav p {
+    font-size: 30px;
+  }
+  li {
+    font-size: 14px;
+  }
   .num-section {
     text-align: center;
     width: 100%;
@@ -378,6 +390,15 @@ body > section.last-section > div > div.first > p:nth-child(4) {
   }
 }
 @media (max-width: 600px) {
+  nav {
+    padding: 14px 12px 0px 12px;
+  }
+  li {
+    margin-left: 38px;
+  }
+  nav p {
+    display: none;
+  }
   div.hero {
     height: 300px;
   }
