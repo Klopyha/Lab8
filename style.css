@@ -4,7 +4,9 @@ font-family: 'Poppins', sans-serif; */
   --main-font: "Inter", sans-serif;
   --main-text-color: white;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 div.hero {
   background-image: url(images/herocoffee.jpg);
   background-color: #cccccc;
@@ -12,6 +14,39 @@ div.hero {
   background-position: center;
   background-size: cover;
   height: 800px;
+}
+nav {
+  color: var(--main-text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 66px 0 104px;
+  padding-top: 25px;
+}
+nav > p {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-style: italic;
+  font-size: 58px;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffffb2;
+  display: inline;
+  list-style: none;
+  margin-left: 23px;
+  transition: all 120ms ease-in-out;
+}
+nav a {
+  text-decoration: none;
+}
+nav li:hover {
+  color: var(--main-text-color);
 }
 h1 {
   font-family: poppins;
