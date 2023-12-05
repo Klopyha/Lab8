@@ -442,3 +442,16 @@ body > section.last-section > div > div.first > p:nth-child(4) {
     margin: 1px 32px;
   }
 }
+@media (max-width: 350px) {
+  .item-title {
+    font-size: 25px;
+    padding-left: 5px;
+  }
+  .pricing-item {
+    width: 278px;
+  }
+  .price {
+    top: -27px;
+    left: 197px;
+  }
+}
