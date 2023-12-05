@@ -408,3 +408,37 @@ body > section.last-section > div > div.first > p:nth-child(4) {
     padding-left: 14px;
   }
 }
+@media (max-width: 400px) {
+  .pricing-item {
+    margin-top: 0;
+    width: 337px;
+    height: 46px;
+    padding: 0px 1px;
+  }
+  .item-desc {
+    display: none;
+  }
+  .price {
+    top: -31px;
+    left: 277px;
+  }
+  #grid-container {
+    margin: 27px 21px;
+  }
+  #visitors > span > h3 {
+    margin-top: 30px;
+  }
+  #visitors > span > p {
+    font-size: 12px;
+  }
+  li {
+    margin-left: 8px;
+  }
+  #about {
+    margin-top: 25px;
+    margin-bottom: 48px;
+  }
+  #video {
+    margin: 1px 32px;
+  }
+}
